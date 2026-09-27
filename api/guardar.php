@@ -23,7 +23,7 @@ $fecha_entrega   = trim($_POST['fecha_entrega'] ?? '');
 $prioridad       = trim($_POST['prioridad'] ?? '');
 $direccion       = trim($_POST['direccion'] ?? '');
 
-// Validación mínima del lado del servidor (nunca confíes solo en el frontend)
+// Validación mínima del lado del servidor
 if ($proveedor === '' || $producto === '' || $cantidad <= 0) {
     http_response_code(422);
     echo json_encode(['error' => 'Proveedor, producto y cantidad son obligatorios.']);
