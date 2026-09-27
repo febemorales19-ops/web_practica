@@ -3,8 +3,7 @@ require_once __DIR__ . '/../db.php';
 
 header('Content-Type: application/json');
 
-// Aceptamos el id ya sea por POST o por query string (?id=5), para que
-// funcione fácil desde jQuery sin complicarnos con métodos DELETE reales.
+// Aceptamos el id ya sea por POST o por query string (?id=5), para que funcione fácil desde jQuery
 $id = (int) ($_POST['id'] ?? $_GET['id'] ?? 0);
 
 if ($id <= 0) {
