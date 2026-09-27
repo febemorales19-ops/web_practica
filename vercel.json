@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/index.php": { "runtime": "vercel-php@0.8.0" },
+    "api/guardar.php": { "runtime": "vercel-php@0.8.0" },
+    "api/listar.php": { "runtime": "vercel-php@0.8.0" },
+    "api/eliminar.php": { "runtime": "vercel-php@0.8.0" }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/api/index.php" }
+  ]
+}
