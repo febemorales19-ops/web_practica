@@ -1,9 +1,5 @@
 <?php
 // Conexión a la base de datos usando PDO.
-// En tu computadora (XAMPP) usa los valores por defecto de abajo.
-// En Vercel, vas a configurar estas mismas variables como "Environment Variables"
-// en el panel del proyecto, con los datos que te da freesqldatabase.com.
-
 $host = getenv('DB_HOST') ?: 'localhost';
 $db   = getenv('DB_NAME') ?: 'adquisiciones';
 $user = getenv('DB_USER') ?: 'root';
