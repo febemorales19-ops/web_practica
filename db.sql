@@ -1,5 +1,3 @@
--- Base de datos para el laboratorio: Stratos Procurement
--- Ejecuta este script en phpMyAdmin (local) o en el phpMyAdmin de tu MySQL remoto (freesqldatabase.com)
 
 CREATE TABLE IF NOT EXISTS solicitudes (
     id INT AUTO_INCREMENT PRIMARY KEY,
