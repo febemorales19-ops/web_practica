@@ -15,7 +15,7 @@
         <!-- Sidebar -->
         <aside class="col-12 col-md-3 col-lg-2 sidebar">
             <div class="brand mb-4">
-                <h5><title>ADQUISICION</title></h5>
+                <h5>ADQUISICIONES</h5>
             </div>
             <nav class="nav flex-column">
                 <a class="nav-link active" href="#" id="tab-nueva">🛒 Nueva Solicitud</a>
